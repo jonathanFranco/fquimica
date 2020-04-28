@@ -735,8 +735,7 @@
 </div>
 
 <!-- PopUp -->
-<!-- Modal -->
-<div class="modal fade wow zoomIn" data-wow-delay="0.2s" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+<div style="overflow: hidden;position: fixed;" class="modal fade wow zoomIn" data-wow-delay="0.2s" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
   aria-hidden="true">
 
   <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
@@ -746,7 +745,7 @@
     <div class="modal-content">
        
       <div style="border: 2px solid #4285F4">
-      	 <button style="position: absolute;right: -10px;top: -10px;opacity: 1" type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <button style="position: absolute;right: -10px;top: -10px;opacity: 1" type="button" class="close" data-dismiss="modal" aria-label="Close">
           <img src="img/close.png" class="" style="width: 40px;height: 40px;">
         </button>
        <img src="img/popup.jpg" class="img-fluid">
@@ -762,7 +761,7 @@
 <script type="text/javascript" src="js/animation.js"></script>
 <script type="text/javascript" src="js/sidebar.js"></script>
 <script type="text/javascript">
-	 $(document).ready(function(){        
+   $(document).ready(function(){        
    $('#myModal').modal('show');
     }); 
 </script>
